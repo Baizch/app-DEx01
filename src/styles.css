@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+li strong {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  li {
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+  }
+
+  li strong {
+    display: inline;
+  }
+
+  li span {
+    display: none;
+  }
+}
+
+.select {
+  height: 25px;
+}
+
+.btn {
+  margin-left: 5px;
+  padding: 0 10px;
+  height: 25px;
+}
